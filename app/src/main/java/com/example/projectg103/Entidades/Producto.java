@@ -15,6 +15,9 @@ public class Producto {
         this.price = price;
     }
 
+    public Producto(String id, String name, String description, int price, String image) {
+    }
+
     public int getId() {return id;}
 
     public byte[] getImage() {

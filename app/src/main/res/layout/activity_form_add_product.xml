@@ -13,8 +13,8 @@
         android:layout_width="342dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Formulario"
-        android:textSize="60dp" />
+        android:text="@string/addproductform"
+        android:textSize="45dp" />
 
     <LinearLayout
         android:layout_width="375dp"
@@ -40,14 +40,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Buscar" />
+                android:text="@string/searchbtnform" />
 
             <Button
                 android:id="@+id/updatebtnform"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Actualizar" />
+                android:text="@string/updatebtnform" />
         </LinearLayout>
 
         <ImageView
@@ -65,7 +65,7 @@
                 android:id="@+id/nameAdd"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:text="Name"
+                android:text="@string/nameAdd"
                 android:textSize="30dp" />
 
             <EditText
@@ -87,7 +87,7 @@
                 android:id="@+id/textDescriptionadd"
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
-                android:text="Description"
+                android:text="@string/textDescriptionadd"
                 android:textSize="30dp" />
 
             <EditText
@@ -109,7 +109,7 @@
                 android:id="@+id/priceAdd"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:text="Price"
+                android:text="@string/priceAdd"
                 android:textSize="30dp" />
 
             <EditText
@@ -131,13 +131,13 @@
                 android:id="@+id/addFormbtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Agregar" />
+                android:text="@string/addFormbtn" />
 
             <Button
                 android:id="@+id/deleteAddform"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Eliminar" />
+                android:text="@string/deleteAddform" />
         </LinearLayout>
 
     </LinearLayout>

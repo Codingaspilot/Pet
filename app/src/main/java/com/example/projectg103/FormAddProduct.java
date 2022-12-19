@@ -5,9 +5,7 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
@@ -17,7 +15,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.projectg103.DB.DBmanage;
@@ -26,8 +23,6 @@ import com.example.projectg103.Servicios.ProductoService;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.FileSystemNotFoundException;
 import java.util.ArrayList;
 
 public class FormAddProduct extends AppCompatActivity {
@@ -37,6 +32,7 @@ public class FormAddProduct extends AppCompatActivity {
     private DBmanage dBmanage;
     private ActivityResultLauncher<String> content;
     private ProductoService productoService;
+    //private DBfirebase dBfirebase;
 
 
     @Override
@@ -56,6 +52,7 @@ public class FormAddProduct extends AppCompatActivity {
 
         try{
             dBmanage= new DBmanage(this);
+            //dBfirebase =new DBfirebase();
             productoService = new ProductoService();
             content= registerForActivityResult(
                     new ActivityResultContracts.GetContent(),
@@ -88,7 +85,9 @@ public class FormAddProduct extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                dBmanage.insertProduct(editNameadd.getText().toString(),
+                //dBfirebase.insertProduct(
+                dBmanage.insertProduct(
+                        editNameadd.getText().toString(),
                         editDescriptionadd.getText().toString(),
                         editPriceadd.getText().toString(),
                         productoService.imageViewToByte(imageAddForm));

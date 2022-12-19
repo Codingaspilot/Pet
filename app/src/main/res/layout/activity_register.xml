@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Login"
+    android:background="@drawable/login_wallpaper">
+
+    <ImageView
+        android:id="@+id/loginPicture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/newusercat" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"></Space>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="@string/registerEmail"
+            android:textColorHint="@color/black"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/custom_textbox"/>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="25dp"></Space>
+
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="@string/registerPassword"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:background="@drawable/custom_textbox"
+            android:gravity="center"/>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="25dp"></Space>
+
+        <EditText
+            android:id="@+id/registerPasswordConfirm"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="@string/registerPasswordConfirm"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:background="@drawable/custom_textbox"
+            android:gravity="center"/>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="50dp"></Space>
+
+        <Button
+            android:id="@+id/registerCreatebtn"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="@string/registerCreatebtn"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_loginbtn"
+            android:textColor="#FFFBF6"/>
+    </LinearLayout>
+
+
+</LinearLayout>

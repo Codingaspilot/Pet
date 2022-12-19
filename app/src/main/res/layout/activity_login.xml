@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Login"
+    android:background="@drawable/login_wallpaper">
+
+    <ImageView
+        android:id="@+id/loginPicture"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/logincat" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"></Space>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/loginEmail"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="@string/loginEmail"
+            android:textColorHint="@color/black"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/custom_textbox"/>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="25dp"></Space>
+
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="@string/loginPass"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:background="@drawable/custom_textbox"
+            android:gravity="center"/>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="50dp"></Space>
+
+        <TextView
+            android:id="@+id/loginNewUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/loginNewUser" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="@string/loginBtn"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_loginbtn"
+            android:textColor="#FFFBF6"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

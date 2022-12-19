@@ -10,10 +10,10 @@
     tools:context=".ProductList"
     android:background="@color/white">
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/productList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PRODUCTOS"
+        android:text="@string/productList"
         android:fontFamily="sans-serif-condensed-medium"
         android:textStyle="bold"
         android:textColor="@color/black"

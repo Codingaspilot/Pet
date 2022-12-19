@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cyan"
+    android:background="@drawable/login_wallpaper"
     tools:context=".MainScreen">
 
     <LinearLayout
@@ -20,7 +20,7 @@
             android:textSize="60dp"
             android:gravity="center"
             android:textColor="@color/white"
-            android:text="@string/Welcome" />
+            android:text="@string/welcome" />
 
         <ImageView
             android:id="@+id/logo"

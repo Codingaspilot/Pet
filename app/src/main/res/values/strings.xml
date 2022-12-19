@@ -1,15 +1,6 @@
 <resources>
     <string name="app_name">Petshop</string>
 
-    //Texts MainActivity
-    <string name="Welcome">Petshop</string>
-
-    //Texts MainActivity2
-    <string name="text_title_home">HOME</string>
-    <string name="text_btn_product1_home">INFO</string>
-    <string name="text_btn_product2_home">INFO</string>
-    <string name="text_btn_product3_home">INFO</string>
-
 
     //Text ProductList
     <string name="product1name">Comida para Gatos</string>
@@ -31,6 +22,36 @@
     <string name="descripcion7">Adios a las huellitas en el suelo</string>
     <string name="descripcion8">Estamos para los momentos mas dificiles</string>
     <string name="descripcion9">Sus deseos son ordenes MR.Garfield</string>
+
+    //Text Main Screen
+    <string name="welcome">Doggie Style</string>
+
+    //Text Login
+    <string name="loginEmail">Usuario/Correo</string>
+    <string name="loginPass">Contraseña</string>
+    <string name="loginNewUser">¿Aun no eres usuario?,Registrate acá.</string>
+    <string name="loginBtn">Sign in</string>
+
+    //Text Register
+    <string name="registerEmail">Usuario/Correo</string>
+    <string name="registerPassword">Contraseña</string>
+    <string name="registerPasswordConfirm">Confirmar contraseña</string>
+    <string name="registerCreatebtn">Crear Usuario</string>
+
+    //Text Product List
+    <string name="productList">Productos</string>
+
+    //Text Form Add
+    <string name="addproductform">New Product</string>
+    <string name="searchbtnform">Search</string>
+    <string name="updatebtnform">Update</string>
+    <string name="nameAdd">Name</string>
+    <string name="textDescriptionadd">Description</string>
+    <string name="priceAdd">Price</string>
+    <string name="addFormbtn">Add</string>
+    <string name="deleteAddform">Delete</string>
+
+
 
 
 </resources>
