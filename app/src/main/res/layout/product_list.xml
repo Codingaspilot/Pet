@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="left"
     tools:context=".ProductList"
-    android:background="@color/white">
+    android:background="#7EEEC1">
     <TextView
         android:id="@+id/productList"
         android:layout_width="wrap_content"

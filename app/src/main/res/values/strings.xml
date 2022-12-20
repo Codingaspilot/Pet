@@ -50,8 +50,7 @@
     <string name="priceAdd">Price</string>
     <string name="addFormbtn">Add</string>
     <string name="deleteAddform">Delete</string>
-
-
+    <string name="title_activity_maps">MapsActivity</string>
 
 
 </resources>

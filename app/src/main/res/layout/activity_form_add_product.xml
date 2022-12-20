@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".FormAddProduct">
+    tools:context=".FormAddProduct"
+    android:background="#98B8AB">
 
     <TextView
         android:id="@+id/addproductform"
@@ -40,21 +41,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/searchbtnform" />
+                android:text="@string/searchbtnform"
+                android:textColor="@color/black"/>
 
             <Button
                 android:id="@+id/updatebtnform"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/updatebtnform" />
+                android:text="@string/updatebtnform"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
         <ImageView
             android:id="@+id/imageAddForm"
             android:layout_width="300dp"
             android:layout_height="300dp"
-            tools:srcCompat="@drawable/ic_launcher_background" />
+            tools:srcCompat="@drawable/addimage" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -131,13 +134,15 @@
                 android:id="@+id/addFormbtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/addFormbtn" />
+                android:text="@string/addFormbtn"
+                android:textColor="@color/black"/>
 
             <Button
                 android:id="@+id/deleteAddform"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/deleteAddform" />
+                android:text="@string/deleteAddform"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
     </LinearLayout>

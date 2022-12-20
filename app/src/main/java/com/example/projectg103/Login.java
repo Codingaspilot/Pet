@@ -45,7 +45,7 @@ public class Login extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful()){
-                                    Intent intent = new Intent(getApplicationContext(),ProductList.class);
+                                    Intent intent = new Intent(getApplicationContext(),selectioScreen.class);
                                     startActivity(intent);
                                 }
                             }
